@@ -1,3 +1,7 @@
+##Online version
+
+To try the game, click on: https://clever-villani-137bb7.netlify.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
