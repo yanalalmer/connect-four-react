@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  font-family: 'Gill Sans';
+  font-size: 25px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Game {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    background-color: #5689db;
+    border: 2px solid #5689db;
+    font-family: 'Gill Sans';
+    border-radius: 3px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 14pt;
+    padding: 7px 28px;
+    text-decoration: none;
+    margin: 5px;
+    transition: all 0.5s;
+    max-width: 160px;
+    min-width: 160px;
+}
+
+button:hover {
+    background-color: lightblue;
+    font-size: 14pt;
+    
+}
+
+.Board {
+  display: flex;
+}
+
+.Cell {
+  padding: 5px;
+  margin: 1px;
+  min-width: 100px;
+  min-height: 100px;
+  border: 2px solid lightblue;
+}
+
+.Cell div {
+  position: relative;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 50px;
+  top: -400px;
+  transition: transform 0.5s;
+}
+
+.Red {
+  background-color: #FF456C;
+  transform: translateY(400px);
+}
+
+.Blue {
+  background-color: #2CC5FF;
+  transform: translateY(400px);
+}
+
+.winnerMessage {
+  margin: 20px;
+  font-size: 0pt;
+  font: 12pt;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.18, 0.99, 0.8, 1.17);
+}
+
+.appear {
+  opacity: 1;
+  font-size: 20pt;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
